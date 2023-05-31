@@ -1,0 +1,34 @@
+h1{
+  text-align: center;
+  text-size-adjust: 50rem;
+
+}
+
+ul.navigation {
+  display: flex;
+}
+
+li {
+  list-style-type: none ;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding: 1rem;
+  text-decoration: underline;
+  text-shadow: 1rem;
+}
+p{
+  margin-left: 800px;
+}
+
+
+
+
+div.title{
+  background: red;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+div.homepage{
+  margin-top: 200px;
+}

@@ -1,0 +1,158 @@
+{
+  "user": [
+    {
+      "id": "admin",
+      "name": " Admin Name",
+      "password": "admin1234",
+      "email": "admin090@gmail.com",
+      "gender": "Male",
+      "isactive": true,
+      "role": "admin"
+    },
+    {
+      "id": "mpsingh",
+      "name": "mpsingh",
+      "password": "mpsingh",
+      "email": "mpsingh@gmail.com",
+      "gender": "Male",
+      "isactive": true,
+      "role": "modifier"
+    }
+  ],
+  "role": [
+    {
+      "code": "admin",
+      "name": " Admin"
+    },
+    {
+      "code": "guest",
+      "name": " Guest"
+    },
+    {
+      "code": "modifier",
+      "name": "Modifier"
+    }
+  ],
+  "results": [
+    {
+      "id": "sarakari result",
+      "resultTitle": " Sarkari result",
+      "desc": "sarakri result",
+      "applyUrl": "//facebook.com",
+      "Posts": "154",
+      "sc": "5",
+      "st": "10",
+      "obc": "15",
+      "gen": "20",
+      "notify": "sarkari result",
+      "startDate": "20-02-2023",
+      "lastDate": "30-03-2023",
+      "eligibility": "10 pass",
+      "resultDate": "10-02-2022",
+      "examDate": "15-02-2022"
+    },
+    {
+      "id": "sarakari result",
+      "resultTitle": " Sarkari result 2",
+      "desc": "sarakri result 2",
+      "applyUrl": "//google.com",
+      "Posts": "sarkari",
+      "sc": "5",
+      "st": "10",
+      "obc": "15",
+      "gen": "20",
+      "notify": "sarkari result",
+      "startDate": "22-02-2023",
+      "lastDate": "01-04-2023",
+      "eligibility": "",
+      "resultDate": "",
+      "examDate": ""
+    },
+    {
+      "id": "Allahabad University Result",
+      "resultTitle": "Allahabad University Result",
+      "desc": "MTS Exam Date : 19/12/2022 Download Admit Card : Before Exam Result Declared : Post Wis",
+      "notify": "https://www.allduniv.ac.in/recruitment_show/57",
+      "startDate": "2021-09-21",
+      "lastDate": "2021-10-23",
+      "applyUrl": "https://www.allduniv.ac.in/recruitment_show/57",
+      "eligibility": "",
+      "resultDate": "",
+      "examDate": ""
+    },
+    {
+      "id": "UPSSSC PET",
+      "resultTitle": "UPSSSC PET",
+      "desc": "Pre Examination Test UPSSSC PET 2022",
+      "notify": "http://164.100.181.233/document/Files/UP005/UploadNotices/2211211154215235_C.pdf",
+      "startDate": "2023-02-01",
+      "lastDate": "2023-02-28",
+      "applyUrl": "http://upsssc.gov.in/",
+      "eligibility": "",
+      "resultDate": "",
+      "examDate": ""
+    },
+    {
+      "id": "National Testing Agency (NTA)",
+      "resultTitle": "National Testing Agency (NTA)",
+      "desc": "     Read the Full Information Brochure Before Apply Online     Photo Instruction : Should be either in colour or black & white with 80% face (without mask) visible  including ears against white background.     Aadhar Card is Must at  JEE MAIN Session I January 2023 All Session Application.     Scanned Document : Candidates Passport Photo, Signature and Father / Guardian Signature.     More Details Read the Notification.",
+      "notify": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2022/12/2022121526.pdf",
+      "eligibility": "B.Tech",
+      "examDate": "2023-01-24",
+      "resultDate": "",
+      "startDate": "2022-12-15",
+      "lastDate": "2023-01-12",
+      "applyUrl": "https://ntaresults.nic.in/resultservices/JEEMAIN-auth-23"
+    }
+  ],
+  "jobs": [
+    {
+      "id": "admin",
+      "latestJob": " Admin",
+      "desc": "",
+      "applyUrl": "",
+      "Posts": "154",
+      "sc": "",
+      "st": "",
+      "obc": "",
+      "gen": "",
+      "notify": "asdfg",
+      "starDate": "",
+      "lastDate": "",
+      "eligibility": "10 pass",
+      "resultDate": "10-02-2022",
+      "examDate": "15-02-2022"
+    },
+    {
+      "id": "rcTf40h",
+      "latestJob": "sarkari job",
+      "desc": "sarkari job",
+      "notify": "https://ssc.nic.in/SSCFileServer/PortalManagement/UploadedFiles/Examinations_in_the_months_of_December2022_JHT2022(P-II)_Reschedule_23112022.pdf",
+      "eligibility": "b.tech",
+      "examDate": "2023-02-09",
+      "resultDate": "2023-02-24",
+      "startDate": "2023-02-01",
+      "lastDate": "2023-02-25",
+      "applyUrl": "https://www.mponline.gov.in/Portal/Examinations/MPPSC/Attestation/Home/Home.aspx"
+    }
+  ],
+  "admissions": [
+    {
+      "id": "admin",
+      "admsnTitle": "Admin 1",
+      "desc": "",
+      "applyUrl": "",
+      "Posts": "",
+      "sc": "",
+      "st": "",
+      "obc": "",
+      "gen": "",
+      "notify": "",
+      "starDate": "",
+      "lastDate": "",
+      "eligibility": "10 pass",
+      "resultDate": "10-02-2022",
+      "examDate": "15-02-2022"
+    }
+  ]
+}

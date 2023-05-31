@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "taiyyari-9736f"
+  },
+  "targets": {
+    "taiyyari-9736f": {
+      "hosting": {
+        "Taiyyari": [
+          "taiyyari-9736f"
+        ]
+      }
+    }
+  }
+}

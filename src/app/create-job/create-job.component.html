@@ -1,0 +1,57 @@
+<mat-card>
+  <mat-card-header>
+    <h1>Create-Job</h1>
+  </mat-card-header>
+  <mat-card-content>
+    <form
+      class="example-form"
+      [formGroup]="jobForm"
+      (ngSubmit)="saveJobForm()"
+    >
+      <mat-form-field class="example-full-width">
+        <mat-label>Id</mat-label>
+        <input matInput formControlName="id" />
+      </mat-form-field>
+      <mat-form-field class="example-full-width">
+        <mat-label>Job Title</mat-label>
+        <input matInput formControlName="latestJob" />
+      </mat-form-field>
+      <mat-form-field class="example-full-width">
+        <mat-label>Description</mat-label>
+        <input matInput type="text" formControlName="desc" />
+      </mat-form-field>
+      <mat-form-field class="example-full-width">
+        <mat-label>Notification</mat-label>
+        <input matInput type="url" formControlName="notify" />
+      </mat-form-field>
+      <mat-form-field class="example-full-width">
+        <mat-label>EligiBility</mat-label>
+        <input matInput type="text" formControlName="eligibility" />
+      </mat-form-field>
+      <mat-form-field class="example-full-width">
+        <mat-label>Exam Date</mat-label>
+        <input matInput type="date" formControlName="examDate" />
+      </mat-form-field>
+      <mat-form-field class="example-full-width">
+        <mat-label>Result Date</mat-label>
+        <input matInput type="date" formControlName="resultDate" />
+      </mat-form-field>
+      <mat-form-field class="example-full-width">
+        <mat-label>Start Date</mat-label>
+        <input matInput type="date" formControlName="startDate" />
+      </mat-form-field>
+      <mat-form-field class="example-full-width">
+        <mat-label>Last Date</mat-label>
+        <input matInput type="date" formControlName="lastDate" />
+      </mat-form-field>
+      <mat-form-field class="example-full-width">
+        <mat-label>Site Url</mat-label>
+        <input matInput type="url" formControlName="applyUrl" />
+      </mat-form-field>
+      <div>
+        <button mat-raised-button color="primary">Save</button>
+        <a mat-dialog-close mat-raised-button color="accent">Cancel</a>
+      </div>
+    </form>
+  </mat-card-content>
+</mat-card>
